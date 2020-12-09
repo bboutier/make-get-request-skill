@@ -20,7 +20,7 @@ class MakeGetRequest(MycroftSkill):
     def handle_request(self, message):
         """Make the actual GET request."""
         params = {}
-        params['query'] = message.data.get('utterance');
+        params['query'] = message.data.get('request');
 
         try:
             req_response = requests.get(self.settings.get('url'), params=params)
