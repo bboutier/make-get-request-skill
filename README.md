@@ -2,9 +2,8 @@
 A configurable Skill for making simple GET requests.
 
 ## About
-In your Skill settings at https://home.mycroft.ai you can define the url to make a request to and optionally a parameter to be added to the request. You must also set an utterance that you will say to trigger the request. You may also choose to enter custom responses to be spoken if the request succeeds or fails. 
-
-If the url and trigger phrase are not available in Skill settings, you will not be able to trigger this Skill.
+In your Skill settings at https://home.mycroft.ai you can define the url to make a request.
+Tested with Jeedom interaction to remote query the api.
 
 ## Examples
 - {Configurable in Skill settings}

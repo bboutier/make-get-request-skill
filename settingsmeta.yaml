@@ -1,34 +1,9 @@
 
 skillMetadata:
   sections:
-    - name: Trigger
-      fields:
-        - name: trigger_phrase
-          type: text
-          label: Trigger phrase
-          value: ""
-          placeholder: this should not include the wake word
-        - name: response_on_success
-          type: text
-          label: Response on success
-          value: ""
-        - name: response_on_failure
-          type: text
-          label: Response on failure
-          value: ""
     - name: Request
       fields:
         - name: url
           type: text
-          label: Url to make request to
+          label: Url to make request to (can include get params)
           value: "http://0.0.0.0/"
-        - type: label
-          label: If needed you can set a parameter that will be appended to your request url.
-        - name: param_key
-          type: text
-          label: Parameter key
-          value: ""
-        - name: param_value
-          type: text
-          label: Parameter value
-          value: ""
